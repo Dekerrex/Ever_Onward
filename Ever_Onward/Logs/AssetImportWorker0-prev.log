@@ -15,11 +15,11 @@ E:/FERRIS YEAR 4/CAPSTONE/UnityRepo/Ever_Onward/Ever_Onward
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57612
+59799
 Successfully changed project path to: E:/FERRIS YEAR 4/CAPSTONE/UnityRepo/Ever_Onward/Ever_Onward
 E:/FERRIS YEAR 4/CAPSTONE/UnityRepo/Ever_Onward/Ever_Onward
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001472 seconds.
+Registered in 0.001559 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
+- Completed reload, in  0.683 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000369 seconds.
+Registered in 0.000427 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -63,61 +63,860 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 143.2 MB.
-System memory in use after: 143.2 MB.
+System memory in use after: 143.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1704.
-Total: 1.532300 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.311300 ms  DeleteObjects: 0.043600 ms)
+Total: 1.591400 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.350500 ms  DeleteObjects: 0.049600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assest/Character/Enemy_2.0/Armor
-  artifactKey: Guid(e5ebd06491bbb864ab10e7d4e42edc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assest/Character/Enemy_2.0/Armor using Guid(e5ebd06491bbb864ab10e7d4e42edc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154f73c840de10f5c688413d2cc21baa') in 0.041152 seconds
-  Import took 0.049508 seconds .
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building
+  artifactKey: Guid(db994eac4f273fe46bcae3eb9926e16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building using Guid(db994eac4f273fe46bcae3eb9926e16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777692a89e426840cc91a8b6d3325c68') in 0.047639 seconds
+  Import took 0.049432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.367431 seconds.
-  path: Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_Base_Color.mat
-  artifactKey: Guid(f841e2dda97e8c540befb8ad364877e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_Base_Color.mat using Guid(f841e2dda97e8c540befb8ad364877e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fce35541fcf27791f5e785bc36a126a') in 0.349517 seconds
-  Import took 0.352202 seconds .
+  Time since last request: 2.701436 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors
+  artifactKey: Guid(1b8bdc3a67a43a54c9038c499bc3a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors using Guid(1b8bdc3a67a43a54c9038c499bc3a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc351cbcbd7ffd1bafdcf05a2f8b1e') in 0.010033 seconds
+  Import took 0.011762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.806881 seconds.
-  path: Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_Base_ColorRANGED.png
-  artifactKey: Guid(699ef382748cc7145ab4294941899048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_Base_ColorRANGED.png using Guid(699ef382748cc7145ab4294941899048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dcd867c886097d44a5438482c01b87') in 0.029114 seconds
-  Import took 0.030929 seconds .
+  Time since last request: 5.898161 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/New Folder
+  artifactKey: Guid(96643ad86a61f8a409a3e17780505eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/New Folder using Guid(96643ad86a61f8a409a3e17780505eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f960d49967102d859b5688577add0') in 0.010151 seconds
+  Import took 0.011807 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011711 seconds.
-  path: Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_Base_ColorRANGED.png
-  artifactKey: Guid(699ef382748cc7145ab4294941899048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_Base_ColorRANGED.png using Guid(699ef382748cc7145ab4294941899048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dcd867c886097d44a5438482c01b87') in 0.019084 seconds
-  Import took 0.020917 seconds .
+  Time since last request: 5.374839 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast
+  artifactKey: Guid(96643ad86a61f8a409a3e17780505eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast using Guid(96643ad86a61f8a409a3e17780505eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c3760cd415973fc962b3847f6b0121') in 0.012988 seconds
+  Import took 0.014837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.802169 seconds.
-  path: Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_RANGED.mat
-  artifactKey: Guid(42216e59553380141b9cbbfd038aadc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_RANGED.mat using Guid(42216e59553380141b9cbbfd038aadc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd253cbd8f2e2e79345a5e7dfc1f30aa1') in 0.021234 seconds
-  Import took 0.023179 seconds .
+  Time since last request: 6.326998 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest
+  artifactKey: Guid(ba0eb350cab5da4408f49480cdfcf29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest using Guid(ba0eb350cab5da4408f49480cdfcf29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fe9d6507d3bec8ad5fb2b4f68f1726') in 0.009303 seconds
+  Import took 0.010980 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.601618 seconds.
-  path: Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_RANGED.mat
-  artifactKey: Guid(42216e59553380141b9cbbfd038aadc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Character/Enemy_2.0/Base Enemy/Materials/Ghoul_RANGED.mat using Guid(42216e59553380141b9cbbfd038aadc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda2c53e0a8843fcc7e4825dddf63d4d') in 0.023224 seconds
-  Import took 0.025132 seconds .
+  Time since last request: 5.392668 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast
+  artifactKey: Guid(4193a25579717d74f91e7349b1ed9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast using Guid(4193a25579717d74f91e7349b1ed9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c957541d1e8e61d6ec345c778a7f3eb') in 0.010241 seconds
+  Import took 0.011969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.987025 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest
+  artifactKey: Guid(65447dff99305374eb4075011c17d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest using Guid(65447dff99305374eb4075011c17d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cdae9395fb6dc01e4c5d8bbd01ed96') in 0.009494 seconds
+  Import took 0.011276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.855000 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor
+  artifactKey: Guid(aca0e24bbec32224a93b9c356415d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor using Guid(aca0e24bbec32224a93b9c356415d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a35f1076d6d82467fd5afd5c8c42032') in 0.009366 seconds
+  Import took 0.011102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.036682 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates
+  artifactKey: Guid(9a21cde215af59a4c82454f69ae74b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates using Guid(9a21cde215af59a4c82454f69ae74b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88afd40e1b3fb4eb470cbb3aa250553d') in 0.009551 seconds
+  Import took 0.011557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.193757 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs
+  artifactKey: Guid(f3b79dc17d941a94b95d3c050debfef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs using Guid(f3b79dc17d941a94b95d3c050debfef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9d969172c6c727f0b59340be9b4984') in 0.009354 seconds
+  Import took 0.011083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.670426 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast
+  artifactKey: Guid(20ec2e6b9331e9a45bacecc2e507af7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast using Guid(20ec2e6b9331e9a45bacecc2e507af7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d0b9d414bd927c85c622d928a81f8d') in 0.010016 seconds
+  Import took 0.011734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.306155 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest
+  artifactKey: Guid(9bd52b30ac1c79f4095e3d199902f702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest using Guid(9bd52b30ac1c79f4095e3d199902f702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd305d375471b8a06dfe90b99b8df6d5a') in 0.009527 seconds
+  Import took 0.011290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.587307 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Base_Color.png
+  artifactKey: Guid(8ad2a792f8132b04183b0fa2eb1c4b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Base_Color.png using Guid(8ad2a792f8132b04183b0fa2eb1c4b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aee5cdda0d4d52177b209ef911d552') in 0.063940 seconds
+  Import took 0.065761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Roughness.png
+  artifactKey: Guid(20e292ccd0519794697d42c76a8de590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Roughness.png using Guid(20e292ccd0519794697d42c76a8de590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c21a97ee0bb18e208dffc43329146ba') in 0.021351 seconds
+  Import took 0.022693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Normal_OpenGL.png
+  artifactKey: Guid(718ef14e0a20dab4c91b4b55008aae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Normal_OpenGL.png using Guid(718ef14e0a20dab4c91b4b55008aae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a1a39cf86aede697cd67be60feaf7a') in 0.019791 seconds
+  Import took 0.021068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Normal.png
+  artifactKey: Guid(cffd9d5decdd64f4298c71af64ce248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Normal.png using Guid(cffd9d5decdd64f4298c71af64ce248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1efa0f4f961d2f068d84153477717bf') in 0.020444 seconds
+  Import took 0.021841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Mixed_AO.png
+  artifactKey: Guid(56ae7639719b170498c33677c0a6a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Mixed_AO.png using Guid(56ae7639719b170498c33677c0a6a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4174b67022916f6108cc59e02e3f174d') in 0.020881 seconds
+  Import took 0.022513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Metallic.png
+  artifactKey: Guid(499919c6250135643bf127e433d188fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Metallic.png using Guid(499919c6250135643bf127e433d188fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20cc69ba9f714146309c03541b7fd2d') in 0.019037 seconds
+  Import took 0.020384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.463426 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/BackBuilding.mat
+  artifactKey: Guid(21d5f6c8625b8ba45943d60f4cb3e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/BackBuilding.mat using Guid(21d5f6c8625b8ba45943d60f4cb3e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da7c626c303d3e9c56f3f0200ca623c') in 0.065639 seconds
+  Import took 0.067880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.223187 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Normal.png
+  artifactKey: Guid(cffd9d5decdd64f4298c71af64ce248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Back Building/Environment Decor_Normal.png using Guid(cffd9d5decdd64f4298c71af64ce248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd421a8cf569c2311a288564d414816b5') in 0.028021 seconds
+  Import took 0.029817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.009628 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Base_Color.png
+  artifactKey: Guid(fe0b286f48e59ea48b008cba10d01b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Base_Color.png using Guid(fe0b286f48e59ea48b008cba10d01b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfff4f3c4dfb45be4b46b431e35083d') in 0.023858 seconds
+  Import took 0.025677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Roughness.png
+  artifactKey: Guid(34f1f87a34bae5d428068d9fb133159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Roughness.png using Guid(34f1f87a34bae5d428068d9fb133159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b41d7485a3d2fc7a6127caef6d8494d') in 0.023328 seconds
+  Import took 0.024968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Mixed_AO.png
+  artifactKey: Guid(6e1d509c35ac7d14f95befc67085b1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Mixed_AO.png using Guid(6e1d509c35ac7d14f95befc67085b1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5058f0688cba899d7ad24639217f2a71') in 0.021993 seconds
+  Import took 0.023571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Metallic.png
+  artifactKey: Guid(0c187246d2aaafa4b953d5b70cdc0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Metallic.png using Guid(0c187246d2aaafa4b953d5b70cdc0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d651c0be6fa63da2ce410e867a2d07') in 0.017956 seconds
+  Import took 0.019573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Normal.png
+  artifactKey: Guid(333a0fef1eb4e0646b6cb2476263d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Normal.png using Guid(333a0fef1eb4e0646b6cb2476263d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c41ae01470447055b90692f79072609') in 0.025811 seconds
+  Import took 0.027409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Normal_OpenGL.png
+  artifactKey: Guid(e899576fa9c08b14884aaa9718efc6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Normal_OpenGL.png using Guid(e899576fa9c08b14884aaa9718efc6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854b2ab5232e6d33c33ecaeba3ede135') in 0.160748 seconds
+  Import took 0.162365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.814481 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors.mat
+  artifactKey: Guid(a72839fb61a1ff74384dfd47bccb6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors.mat using Guid(a72839fb61a1ff74384dfd47bccb6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac1d1b32b8b66052d5674e355d5d151') in 0.017777 seconds
+  Import took 0.019564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.417232 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Normal.png
+  artifactKey: Guid(333a0fef1eb4e0646b6cb2476263d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors, Door Frames, and Pillars_Normal.png using Guid(333a0fef1eb4e0646b6cb2476263d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddadb4d1564dba4446c846aa08e0cd1') in 0.025689 seconds
+  Import took 0.027591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.148556 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Base_Color.png
+  artifactKey: Guid(ef5d279265756b14382a880e3d516013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Base_Color.png using Guid(ef5d279265756b14382a880e3d516013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c9c7e9af6a4bbe095497cbcfe4d4ed') in 0.021771 seconds
+  Import took 0.023709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Roughness.png
+  artifactKey: Guid(6da2c6879cedbd54dbc82c8e223b92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Roughness.png using Guid(6da2c6879cedbd54dbc82c8e223b92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03396105a24622827af5db2f57b0176a') in 0.021745 seconds
+  Import took 0.023360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Normal.png
+  artifactKey: Guid(444a3a5d15278814287f12b0d29cc9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Normal.png using Guid(444a3a5d15278814287f12b0d29cc9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff9419c6824b6e73ea999a35e41f26') in 0.016444 seconds
+  Import took 0.017775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Metallic.png
+  artifactKey: Guid(e2ab593a26fbdea4387967dddd183221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Metallic.png using Guid(e2ab593a26fbdea4387967dddd183221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1c7f420042afd91b0c81bc80f8c057') in 0.014583 seconds
+  Import took 0.015849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Normal_OpenGL.png
+  artifactKey: Guid(f34653315f1e95742ade128d53b8c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Normal_OpenGL.png using Guid(f34653315f1e95742ade128d53b8c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dd90832d99809e1760280c15ba8dbc') in 0.050134 seconds
+  Import took 0.051617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Mixed_AO.png
+  artifactKey: Guid(4174030e17a9b4b4fb99f8ec040b4008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Mixed_AO.png using Guid(4174030e17a9b4b4fb99f8ec040b4008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27e7591b7b6d8e264ea7a396bb041ec') in 0.018801 seconds
+  Import took 0.020308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.137348 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stairs.mat
+  artifactKey: Guid(8d3839557d35b4a48a7d309e632f1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stairs.mat using Guid(8d3839557d35b4a48a7d309e632f1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff37c96ef84a94b4188141468dcb218') in 0.018288 seconds
+  Import took 0.020079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.632767 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Normal.png
+  artifactKey: Guid(444a3a5d15278814287f12b0d29cc9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stair Wells_Normal.png using Guid(444a3a5d15278814287f12b0d29cc9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3213d0c5a5e39575c9f6cc52a8962314') in 0.019782 seconds
+  Import took 0.021620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.347237 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Base_Color.png
+  artifactKey: Guid(c1c50a3576b23ee4288397ed12509d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Base_Color.png using Guid(c1c50a3576b23ee4288397ed12509d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7095364c1d16a5d123283909f5e3e1') in 0.025252 seconds
+  Import took 0.027088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Normal.png
+  artifactKey: Guid(78c8f4ebd5ff02549833a7a4b8a27a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Normal.png using Guid(78c8f4ebd5ff02549833a7a4b8a27a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a280de09bcf27137cd51112dcf2a6a8') in 0.100761 seconds
+  Import took 0.102373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Normal_OpenGL.png
+  artifactKey: Guid(29a74b5fe322e024c8b52ad49c13de94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Normal_OpenGL.png using Guid(29a74b5fe322e024c8b52ad49c13de94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a250c21ea5114ac7a9e7b51569e1ec') in 0.024549 seconds
+  Import took 0.026112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Metallic.png
+  artifactKey: Guid(e98c7b35218789a4586724bbeb6f3559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Metallic.png using Guid(e98c7b35218789a4586724bbeb6f3559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54f31268c3590935b247a03aa5405d8') in 0.121942 seconds
+  Import took 0.123534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Mixed_AO.png
+  artifactKey: Guid(d0f937f8879d3bb47ae35f5ba30171d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Mixed_AO.png using Guid(d0f937f8879d3bb47ae35f5ba30171d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d9d9f402a360756fd11bd8c8090d5f') in 0.020455 seconds
+  Import took 0.021885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Roughness.png
+  artifactKey: Guid(4fb263e76e1522f4a8b14ef438893eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Roughness.png using Guid(4fb263e76e1522f4a8b14ef438893eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d87579b35f2c1635f046970dee622bc') in 0.048386 seconds
+  Import took 0.049809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.932438 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/ExteriorEast.mat
+  artifactKey: Guid(b544e9febba79e747b396000478328de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/ExteriorEast.mat using Guid(b544e9febba79e747b396000478328de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fd2335b84cd60eb1a2624cdd690240') in 0.015670 seconds
+  Import took 0.017422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.525924 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Normal.png
+  artifactKey: Guid(78c8f4ebd5ff02549833a7a4b8a27a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorEast/Outer Walls_Normal.png using Guid(78c8f4ebd5ff02549833a7a4b8a27a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e21ef4b5cb070dd8c874356469efd4') in 0.024024 seconds
+  Import took 0.026046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.172349 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/ExteriorWest.mat
+  artifactKey: Guid(8f956be7c17aec04aa285f1920a65e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/ExteriorWest.mat using Guid(8f956be7c17aec04aa285f1920a65e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d211b190b0b4847761528e4c40be53') in 0.017455 seconds
+  Import took 0.019241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.910357 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Base_Color.png
+  artifactKey: Guid(3647067267f6a4a4885cccb1b85c9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Base_Color.png using Guid(3647067267f6a4a4885cccb1b85c9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126f06ddd0ae07905ad8e9a9c732b76') in 0.023676 seconds
+  Import took 0.025507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Normal_OpenGL.png
+  artifactKey: Guid(3ec739fd932c0644c8183a0d07c4ef4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Normal_OpenGL.png using Guid(3ec739fd932c0644c8183a0d07c4ef4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292f5c1b5e03bd79f76c1e3ef3beedca') in 0.022209 seconds
+  Import took 0.032792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Roughness.png
+  artifactKey: Guid(fed32813c9e7bcc43b87df7a179d49d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Roughness.png using Guid(fed32813c9e7bcc43b87df7a179d49d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a46afdbd1ecbc05796bbf9f7d81f4b2') in 0.023054 seconds
+  Import took 0.024721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Metallic.png
+  artifactKey: Guid(83ab044a1f73bba4aab48984a0818a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Metallic.png using Guid(83ab044a1f73bba4aab48984a0818a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6ee37472dff6cfa818899085742c30') in 0.019880 seconds
+  Import took 0.021432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Normal.png
+  artifactKey: Guid(0f5d5165d9d3fb14096fc7b2cf02241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Normal.png using Guid(0f5d5165d9d3fb14096fc7b2cf02241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85b6974bd856e5cdf024332a005d8ec') in 0.020353 seconds
+  Import took 0.022011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Mixed_AO.png
+  artifactKey: Guid(716645e042c20c449910224112378bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Mixed_AO.png using Guid(716645e042c20c449910224112378bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281885714902429d1698b0030ec3ebf2') in 0.061247 seconds
+  Import took 0.062974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.296941 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Normal.png
+  artifactKey: Guid(0f5d5165d9d3fb14096fc7b2cf02241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/ExteriorWest/OuterWall2_Normal.png using Guid(0f5d5165d9d3fb14096fc7b2cf02241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf52c7b6705e13cc0300842066c0864d') in 0.023281 seconds
+  Import took 0.025174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.885168 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors.mat
+  artifactKey: Guid(a72839fb61a1ff74384dfd47bccb6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Doors/Doors.mat using Guid(a72839fb61a1ff74384dfd47bccb6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac77186419859dc1a94115bdf9f77dca') in 0.039320 seconds
+  Import took 0.041538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.036581 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor.mat
+  artifactKey: Guid(fe9d68182d223524dbd108fecdb82a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor.mat using Guid(fe9d68182d223524dbd108fecdb82a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31b994c751dbdcf38c8e1493b4c5b7d') in 0.014388 seconds
+  Import took 0.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.363999 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Base_Color.png
+  artifactKey: Guid(c4a19c20cefccb2409f8715880f34c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Base_Color.png using Guid(c4a19c20cefccb2409f8715880f34c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00fc7a116c0441bd8262a039fa29d5f') in 0.026529 seconds
+  Import took 0.028402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Roughness.png
+  artifactKey: Guid(67cfa01d1b7d6a4488539a437bc5d492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Roughness.png using Guid(67cfa01d1b7d6a4488539a437bc5d492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bd4f3d886aa28947485eca24fb6780') in 0.022861 seconds
+  Import took 0.066218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Normal_OpenGL.png
+  artifactKey: Guid(4e92da05107e1cd45a7dfaa5e264b9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Normal_OpenGL.png using Guid(4e92da05107e1cd45a7dfaa5e264b9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70573b457081e2239bee9672ab896980') in 0.020336 seconds
+  Import took 0.021916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Mixed_AO.png
+  artifactKey: Guid(054d4970b77831a479f1151ca8e44482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Mixed_AO.png using Guid(054d4970b77831a479f1151ca8e44482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a04758cb161b84dc437aad0e1e9fc20') in 0.023366 seconds
+  Import took 0.025006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Metallic.png
+  artifactKey: Guid(681a2e5a9f7fa614da497a4a11f231de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Metallic.png using Guid(681a2e5a9f7fa614da497a4a11f231de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db72b2a0b7e8e8d39edb3999ce9904ea') in 0.016852 seconds
+  Import took 0.018316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Normal.png
+  artifactKey: Guid(d634a2284a7d1314da3f8898d808ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Normal.png using Guid(d634a2284a7d1314da3f8898d808ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a06b9f42bef4a918309ef2298cad44') in 0.020098 seconds
+  Import took 0.021616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.318132 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Normal.png
+  artifactKey: Guid(d634a2284a7d1314da3f8898d808ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Floor/Floor_Normal.png using Guid(d634a2284a7d1314da3f8898d808ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e6b5e7dc8497f77e8d75e9e098ebd9') in 0.020022 seconds
+  Import took 0.021843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.255678 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates.mat
+  artifactKey: Guid(50c24442348b0584ea4f973076c4494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates.mat using Guid(50c24442348b0584ea4f973076c4494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465e6e378960ba19267a3f817f19691c') in 0.018775 seconds
+  Import took 0.020589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.779683 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Base_Color.png
+  artifactKey: Guid(07b118ceea989554bb9abc35c93bae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Base_Color.png using Guid(07b118ceea989554bb9abc35c93bae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5f9292d7218c9b215755de775ff108') in 0.027334 seconds
+  Import took 0.029209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Normal_OpenGL.png
+  artifactKey: Guid(97b62289838d67a4a92edde176b247ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Normal_OpenGL.png using Guid(97b62289838d67a4a92edde176b247ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fda39e96456e6cbd7e9abe39368f06') in 0.358366 seconds
+  Import took 0.360054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Metallic.png
+  artifactKey: Guid(5772594f02cc14f43bac20465cd966fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Metallic.png using Guid(5772594f02cc14f43bac20465cd966fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca29ffdd0608e5b2dc58888d54ae295') in 0.021383 seconds
+  Import took 0.023053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Roughness.png
+  artifactKey: Guid(e74410ad70f4f764896f7f6a61109e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Roughness.png using Guid(e74410ad70f4f764896f7f6a61109e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e717ae6a950ccdf5b9b42eff90f4b28') in 0.030323 seconds
+  Import took 0.225083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Normal.png
+  artifactKey: Guid(1c3a8de1fcfe9934a966e7e36347a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Normal.png using Guid(1c3a8de1fcfe9934a966e7e36347a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40447be063c7f82cd8910135e4304548') in 0.023541 seconds
+  Import took 0.025072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Mixed_AO.png
+  artifactKey: Guid(4de1cc1332346444cb902e39997e1f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Mixed_AO.png using Guid(4de1cc1332346444cb902e39997e1f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7770f8eecde922efbba4e44955b2362') in 0.018913 seconds
+  Import took 0.020329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.674713 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Normal.png
+  artifactKey: Guid(1c3a8de1fcfe9934a966e7e36347a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Gates/Gates_Normal.png using Guid(1c3a8de1fcfe9934a966e7e36347a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31667e4aad60ef92a10ee47c3ca4299f') in 0.021998 seconds
+  Import took 0.023803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.257394 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/InteriorEast.mat
+  artifactKey: Guid(ccf09522ac330c94bb1b55b3e96fd4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/InteriorEast.mat using Guid(ccf09522ac330c94bb1b55b3e96fd4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9d549815fb3dc8a8b1110d5ff8ebc4') in 0.016949 seconds
+  Import took 0.018684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.302063 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Base_Color.png
+  artifactKey: Guid(499ce524f1091ff40bae3e89b15ab0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Base_Color.png using Guid(499ce524f1091ff40bae3e89b15ab0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8725ee810b58447db6a2de0aed4de8') in 0.027934 seconds
+  Import took 0.029787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Roughness.png
+  artifactKey: Guid(303b70233670c78499c3bfea6afcb54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Roughness.png using Guid(303b70233670c78499c3bfea6afcb54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413346151bfa4a54fa095d40f26a6fb1') in 0.020321 seconds
+  Import took 0.021878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Normal_OpenGL.png
+  artifactKey: Guid(a234f3d759e19e247b6cf60d4dab8d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Normal_OpenGL.png using Guid(a234f3d759e19e247b6cf60d4dab8d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af478ba0b7845c48d1ec08948dbdd93') in 0.019031 seconds
+  Import took 0.020486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Mixed_AO.png
+  artifactKey: Guid(3cf07b46944e7204fb9cfb4ba552bd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Mixed_AO.png using Guid(3cf07b46944e7204fb9cfb4ba552bd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3024d7367e638faecda3b41efd3aa5') in 0.018104 seconds
+  Import took 0.019506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Metallic.png
+  artifactKey: Guid(6893781839c936d4382853d3ea7da530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Metallic.png using Guid(6893781839c936d4382853d3ea7da530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2e95d055138baecfc7728ef264ac3f') in 0.014561 seconds
+  Import took 0.015974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Normal.png
+  artifactKey: Guid(ad4164e9deaed604c98fb083f813d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Normal.png using Guid(ad4164e9deaed604c98fb083f813d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b987189a9a98593beaa2d72482475ace') in 0.019098 seconds
+  Import took 0.020783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.132867 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Normal.png
+  artifactKey: Guid(ad4164e9deaed604c98fb083f813d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorEast/Interior Walls & Floors_Normal.png using Guid(ad4164e9deaed604c98fb083f813d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2ccff19cd9299d27b86f641279d2d8') in 0.042568 seconds
+  Import took 0.044418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.053730 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stairs.mat
+  artifactKey: Guid(8d3839557d35b4a48a7d309e632f1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Stairs/Stairs.mat using Guid(8d3839557d35b4a48a7d309e632f1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dfe6bb057c4d662e68f768345e5906') in 0.048575 seconds
+  Import took 0.050381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.497306 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Base_Color.png
+  artifactKey: Guid(93148bad2f220634ab1241f56f1a051e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Base_Color.png using Guid(93148bad2f220634ab1241f56f1a051e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70f2f59977f1258c6f2450e5a9fba6e') in 0.026181 seconds
+  Import took 0.028106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Metallic.png
+  artifactKey: Guid(16503c482ee26814b8b89a11eea56f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Metallic.png using Guid(16503c482ee26814b8b89a11eea56f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f4c78dcb781d554ebbaa6f5fdc6a03') in 0.017478 seconds
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Normal.png
+  artifactKey: Guid(75a8a45fad86f0f4b857d3400468e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Normal.png using Guid(75a8a45fad86f0f4b857d3400468e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac3541c36e8db7085e337953020247c') in 0.020966 seconds
+  Import took 0.022588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Mixed_AO.png
+  artifactKey: Guid(7cdd783efa8811248808843e8df533de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Mixed_AO.png using Guid(7cdd783efa8811248808843e8df533de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd619ec9ea16726c2636a9e487889e352') in 0.028390 seconds
+  Import took 0.029759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Roughness.png
+  artifactKey: Guid(579131534254dce46b6b01dc2fe5d81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Roughness.png using Guid(579131534254dce46b6b01dc2fe5d81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c172934773bf95ab35ab88d6b080813') in 0.020399 seconds
+  Import took 0.021791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Normal_OpenGL.png
+  artifactKey: Guid(9ee6d4f454d5c364297ac37e37a78d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Normal_OpenGL.png using Guid(9ee6d4f454d5c364297ac37e37a78d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c396d8830e728d30cbc015ef8c3d8a91') in 0.020091 seconds
+  Import took 0.021562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.872998 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/InteriorWest.mat
+  artifactKey: Guid(697fa2d89abe7214b9bbe4d2e51c09bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/InteriorWest.mat using Guid(697fa2d89abe7214b9bbe4d2e51c09bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd56dec7d168e83d05bb6e81eabca48') in 0.014591 seconds
+  Import took 0.016374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.113509 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Normal.png
+  artifactKey: Guid(75a8a45fad86f0f4b857d3400468e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/InteriorWest/Interior2_Normal.png using Guid(75a8a45fad86f0f4b857d3400468e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df34f2a52c005096b73251d2a0713382') in 0.024157 seconds
+  Import took 0.026006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.124203 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Base_Color.png
+  artifactKey: Guid(e9f3309fb7e9e014aa62c6137d8dce48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Base_Color.png using Guid(e9f3309fb7e9e014aa62c6137d8dce48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6108fc88a986037a0318a2dd6666241d') in 0.023460 seconds
+  Import took 0.025241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Roughness.png
+  artifactKey: Guid(fce39857ee025c142af44b957b91765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Roughness.png using Guid(fce39857ee025c142af44b957b91765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8017e15f36f2506a9aa2ca57ee4e4d') in 0.020625 seconds
+  Import took 0.022223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Mixed_AO.png
+  artifactKey: Guid(94ae935f3398ef641a92b7c0b55ad212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Mixed_AO.png using Guid(94ae935f3398ef641a92b7c0b55ad212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2171f6668ff9555d6e4d224b1b6242') in 0.026107 seconds
+  Import took 0.027882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Metallic.png
+  artifactKey: Guid(91ecb5ff9b333834681410dc3226dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Metallic.png using Guid(91ecb5ff9b333834681410dc3226dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4898bfd6520cc851466ea295c0fcec4b') in 0.053213 seconds
+  Import took 0.054870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Normal.png
+  artifactKey: Guid(64bf770bb66991f42acd58edb7031692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Normal.png using Guid(64bf770bb66991f42acd58edb7031692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1995011aab0cfd279dc84778ae937a4') in 0.026765 seconds
+  Import took 0.028406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Normal_OpenGL.png
+  artifactKey: Guid(d44b90bc28c47f540ab4370f7c9fded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Normal_OpenGL.png using Guid(d44b90bc28c47f540ab4370f7c9fded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affaf012375df54755e8940fbc51159f') in 0.021307 seconds
+  Import took 0.023038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.066752 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/RoofEast.mat
+  artifactKey: Guid(6b25437808fbd344faf7a9b7ac313537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/RoofEast.mat using Guid(6b25437808fbd344faf7a9b7ac313537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e48b076a816a9c23cad1af9cd912a1') in 0.018367 seconds
+  Import took 0.020185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.298911 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Normal.png
+  artifactKey: Guid(64bf770bb66991f42acd58edb7031692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/Roofeast/Roofs_Normal.png using Guid(64bf770bb66991f42acd58edb7031692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de2901d8252d20d4f9fc9c1d39e3972') in 0.025521 seconds
+  Import took 0.027341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.080525 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/RoofWest.mat
+  artifactKey: Guid(128251bc9db8b76459838c72770dc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/RoofWest.mat using Guid(128251bc9db8b76459838c72770dc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3cfbae28e14b2fe46a276fd4d39ad1') in 0.020221 seconds
+  Import took 0.021970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.325284 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Base_Color.png
+  artifactKey: Guid(54aaf6698c62de34d95b523bfdacf243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Base_Color.png using Guid(54aaf6698c62de34d95b523bfdacf243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc13637b7211a25fe03291f1bdd3af3') in 0.069152 seconds
+  Import took 0.071049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Metallic.png
+  artifactKey: Guid(0a8c832215e7a3d4f8fbd2ddd127c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Metallic.png using Guid(0a8c832215e7a3d4f8fbd2ddd127c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410d2f2c0b608c90b6a96506d36efef8') in 0.019182 seconds
+  Import took 0.020615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Normal_OpenGL.png
+  artifactKey: Guid(51ca501f6fcca2d4185d5f39231af1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Normal_OpenGL.png using Guid(51ca501f6fcca2d4185d5f39231af1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41e1a16d206283198cfb31c3309b505') in 0.023561 seconds
+  Import took 0.025042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Mixed_AO.png
+  artifactKey: Guid(0e21c6aab6de3f84697d918b1f50a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Mixed_AO.png using Guid(0e21c6aab6de3f84697d918b1f50a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8228ef19b446e0fbc6a32f5f7938c7e0') in 0.029215 seconds
+  Import took 0.030972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Normal.png
+  artifactKey: Guid(3e3e3e71b18328d4fa63ccd224078ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Normal.png using Guid(3e3e3e71b18328d4fa63ccd224078ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfabce8333a50d0e5a63e328c7251efb') in 0.021662 seconds
+  Import took 0.116057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Roughness.png
+  artifactKey: Guid(97bfea3d10416c54cad5d5e4409ed3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Roughness.png using Guid(97bfea3d10416c54cad5d5e4409ed3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207738308d651bed198446ac9c8c0f9d') in 0.029757 seconds
+  Import took 0.031200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.556484 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Normal.png
+  artifactKey: Guid(3e3e3e71b18328d4fa63ccd224078ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/Roofs2_Normal.png using Guid(3e3e3e71b18328d4fa63ccd224078ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27da70995bb68207b1beb226497496df') in 0.022680 seconds
+  Import took 0.024540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.495760 seconds.
+  path: Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/RoofWest.mat
+  artifactKey: Guid(128251bc9db8b76459838c72770dc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assest/Environment/Castle/Temple_Textures/RoofWest/RoofWest.mat using Guid(128251bc9db8b76459838c72770dc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ea569041020b63bb4fe7c17f3e873a') in 0.032307 seconds
+  Import took 0.034491 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1749.
+Total: 1.473000 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.248700 ms  DeleteObjects: 0.040600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
